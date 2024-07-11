@@ -1,6 +1,6 @@
 {
-  "name": "Browser Extension",
-  "description": "Browser Extension Boilerplate",
+  "name": "Color Capture",
+  "description": "A precise and zoomable eyedropper and color chooser tool that allows you to select color values from webpages and any other screen elements with ease.",
   "version": "1.0.0",
   "manifest_version": 3,
   "icons": {
@@ -10,8 +10,8 @@
   },
   "action": {
     "default_popup": "popup.html",
-    "default_title": "Browser Extension",
-    "default_icon": "icon.png"
+    "default_title": "ColorCapture",
+    "default_icon": "color-picker.png"
   },
   "permissions": ["storage"],
   "options_page": "options.html",
