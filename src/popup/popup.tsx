@@ -4,8 +4,10 @@ import "./popup.css";
 
 const App: React.FC<{}> = () => {
   return (
-    <div>
-      <img src="icon.png" />
+    <div className="bg-red-500 w-[500px]">
+      <ul>
+        <li>Pick Color From Web Page</li>
+      </ul>
     </div>
   );
 };
