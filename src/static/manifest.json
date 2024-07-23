@@ -1,6 +1,6 @@
 {
-  "name": "Color Capture",
-  "description": "A precise and zoomable eyedropper and color chooser tool that allows you to select color values from webpages and any other screen elements with ease.",
+  "name": "Weather Extension",
+  "description": "it gives you the information about weather of city",
   "version": "1.0.0",
   "manifest_version": 3,
   "icons": {
@@ -10,10 +10,10 @@
   },
   "action": {
     "default_popup": "popup.html",
-    "default_title": "ColorCapture",
-    "default_icon": "color-picker.png"
+    "default_title": "Weather Extension",
+    "default_icon": "icon.png"
   },
-  "permissions": ["storage"],
+  "permissions": ["alarms", "contextMenus", "storage"],
   "options_page": "options.html",
   "background": {
     "service_worker": "background.js"
